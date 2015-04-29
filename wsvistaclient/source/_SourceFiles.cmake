@@ -8,7 +8,7 @@ set( DirFiles
 	App.h
 	ActivationCallback.h
 	EventHandler.cpp
-	Eventhandler.h
+	EventHandler.h
 	main.cpp
 	_SourceFiles.cmake
 )
