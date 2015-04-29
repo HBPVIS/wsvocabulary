@@ -1,0 +1,10 @@
+namespace wsvoc;
+
+table Vector3d
+{
+  x:float;
+  y:float;
+  z:float; 
+}
+
+root_type Vector3d;
