@@ -17,9 +17,10 @@ include(FindPackages)
 
 set(COMMON_PROJECT_DOMAIN eu.humanbrainproject)
 set(WSVOC_DESCRIPTION "WSVOC - Vocabulary for Aachen WS")
-set(WSVOC_DEPENDENT_LIBRARIES zeq FlatBuffers)
+set(WSVOC_DEPENDENT_LIBRARIES zeq FlatBuffers )
 
 
 add_subdirectory( wsvoc )
+add_subdirectory( wsserver )
 
 include(CPackConfig)
